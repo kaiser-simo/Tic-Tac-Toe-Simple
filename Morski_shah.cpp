@@ -21,7 +21,7 @@ int main(){
 			if(masiv[a][b] == 0){
 				masiv[a][b] = 1;
 			}else{
-				cout<<"dai pak"<<endl;
+				cout<<"No overwriting, please!"<<endl;
 				cin >> a >> b;
 				masiv[a][b] = 1;
 			}
@@ -50,7 +50,7 @@ int main(){
 			if(masiv[a][b] == 0){
 				masiv[a][b] = 2;
 			}else{
-				cout<<"dai pak"<<endl;
+				cout<<"No overwriting, please!"<<endl;
 				cin >> a >> b;
 				masiv[a][b] = 2;
 			}
